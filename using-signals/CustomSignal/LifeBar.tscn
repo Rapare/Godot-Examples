@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://cqxhie4sy0lh7"]
+
+[ext_resource type="Texture2D" uid="uid://bv8ktudw7r6dx" path="res://CustomSignal/lifebar_foreground.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://cgbykpee7183i" path="res://CustomSignal/lifebar_background.png" id="2"]
+[ext_resource type="Script" path="res://CustomSignal/LifeBar.gd" id="3"]
+
+[node name="LifeBar" type="TextureProgressBar"]
+offset_left = 43.0
+offset_top = 51.0
+offset_right = 235.0
+offset_bottom = 91.0
+texture_under = ExtResource("2")
+texture_over = ExtResource("1")
+script = ExtResource("3")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 8.3943
+offset_top = -19.315
+offset_right = 95.3943
+offset_bottom = -5.315
+text = "Player health:"

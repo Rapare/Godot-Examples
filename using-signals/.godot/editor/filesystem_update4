@@ -1,0 +1,7 @@
+res://Toggle_motion.tscn
+res://ToggleMotion/Godot.tscn
+res://ToggleMotion/Godot.gd
+res://CustomSignal.tscn
+res://CustomSignal/LifeBar.gd
+res://CustomSignal/Player.gd
+res://CustomSignal/LifeBar.tscn
